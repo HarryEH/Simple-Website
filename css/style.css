@@ -165,6 +165,12 @@ figure.NCL {
 
 }
 
+ul#projects li {
+	display: block;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 1.0em;
+	padding:5px;
+}
 ul {
 	text-align: center;
 	padding:5px;
