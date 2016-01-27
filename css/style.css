@@ -89,7 +89,7 @@ a:hover {
 	border-radius: 2px;
 }
 a{
-	color:#ff19d1;
+
 	text-decoration:none;
 	outline: none;
 	-webkit-transition: all 0.2s ease;
@@ -98,6 +98,9 @@ a{
 	transition: all 0.2s ease;
 	border-radius: 2px; /*stops weird look when hovering */
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+a.pink {
+	color:#ff19d1;
 }
 
 
