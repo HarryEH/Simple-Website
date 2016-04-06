@@ -10,9 +10,7 @@ body {
 }
 
 #wrapper {
-	background-color: red;
 	background-image: url("pink_rice.png");
-	background-repeat: repeat;
 	min-height:100%;
 	position:relative;
 	width:100%;
