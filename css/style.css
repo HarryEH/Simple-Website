@@ -37,6 +37,7 @@ h1#name{
 }
 
 h2{
+	padding: 5px;
 	color:#000000;
 	text-decoration:none;
 	outline: none;
@@ -154,7 +155,7 @@ ul#projects li {
 }
 ul {
 	text-align: center;
-	padding:5px;
+	padding:10px;
 }
 
 ul li {
