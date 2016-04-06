@@ -13,7 +13,26 @@
 
         <h1 id="name">Harry Howarth</h1>
 
-        <h2><a href="images/harrycv.pdf">CV</a></h2>
+
+        <h2 id="cv-click">CV</h2>
+        <div id="div-to-hide">
+            <iframe src="http://docs.google.com/gview?url=http://harryehowarth.com/images/harrycv.pdf&embedded=true" style="width:480px; height:600px;" frameborder="0"></iframe>
+        </div>
+
+        <script>
+            document.getElementById("cv-click").addEventListener("click", function(){
+                console.log("click");
+                var div = document.getElementById("div-to-hide");
+                var wholePage = document.getElementById("main");
+                if (div.style.display == 'block') {
+                    wholePage.style.top = '50%';
+                    div.style.display = 'none';
+                } else {
+                    wholePage.style.top = '20%';
+                    div.style.display = 'block';
+                }
+            });
+        </script>
         <!--<h1>My Projects: </h1>-->
         <!--<ul id="projects">-->
         <!--<li><a href="https://github.com/HarryEH/Udacity-APP-SquadManager">Android Team Manager Application</a></li>-->
@@ -37,7 +56,6 @@
             <li><a href="https://www.instagram.com/harryehowarth"><img alt="instagram logo" height="40" src="images/Instagram.png" /></a></li>
             <li><a href="https://www.youtube.com/harryehowarth"><img alt="youtube logo" height="40" src="images/Youtube.png" /></a></li>
             <li><a href="https://plus.google.com/u/0/108727689179285682890/posts/p/pub"><img alt="google plus logo" height="40" src="images/Google+.png" /></a></li>
-
         </ul>
 
         <h2><a href="images/harrycv.pdf">My Projects</a></h2>
